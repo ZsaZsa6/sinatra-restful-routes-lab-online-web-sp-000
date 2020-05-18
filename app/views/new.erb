@@ -1,14 +1,15 @@
 <form action="/recipes" method="post">
   <ul>
     <li>
-      <label for="title">Title</label>
-      <input id="title" type="text" name="title" />
+      <label for="name">Recipe Title</label>
+      <input id="name" type="text" name="name" />
     </li>
     <li>
-      <label for="content">Content</label>
-      <textarea id="content" type="text" name="content">
-      </textarea>
+      <label for="ingredients">Recipe Ingredients</label>
+      <input id="ingredients" type="text" name="ingredients" />
     </li>
+    <label for="cook_time">Recipe Cook Time</label>
+    <input id="cook_time" type="text" name="cook_time" />
   </ul>
   <input type="submit" />
 </form>
