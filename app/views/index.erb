@@ -1,0 +1,9 @@
+<ul>
+<% @recipe.each do |recipe| %>
+  <li>
+    <a href="/articles/<%= article.id %>">
+      <%= article.title %>
+    </a>
+  </li>
+<% end %>
+</ul>
